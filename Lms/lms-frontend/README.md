@@ -54,3 +54,8 @@ npx tailwindcss init
 @tailwind components;
 @tailwind utilities;
 ```
+
+### set up instruction for all dependency 
+```
+npm install @reduxjs/toolkit react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
+```
