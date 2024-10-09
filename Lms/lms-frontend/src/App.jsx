@@ -44,17 +44,28 @@
 
 
 import './App.css';
-import Footer from './Components/Footer';
-import HomeLayout from './Layouts/HomeLayout';
 
+
+import { Routes, Route } from 'react-router-dom';
+
+import HomePage from  './Pages/HomePage';
+// import HomeLayout from './Layouts/HomeLayout';
+// import Footer from './Components/Footer';
 function App() {
   return (
     <>
-      {/* Uncomment if you want to use the Footer */}
-      <Footer />
-      <HomeLayout />
+      <Routes>
+        <Route path="/" element ={<HomePage />}> </Route>
+
+
+
+      </Routes>
+     
+{/* <HomeLayout />
+<Footer /> */}
+
     </>
-  );
+  )
 }
 
-export default App;
+export default App
